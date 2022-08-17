@@ -11,6 +11,7 @@ buildscript {
         life_cycle_view_model_version = '2.5.1'
         life_cycle_extensions_version = '2.2.0'
         lifecycle_runtime_version = '2.5.1'
+        activity_fragment_view_model_version = '1.4.1'
     }
 
     dependencies {

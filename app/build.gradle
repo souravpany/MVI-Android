@@ -32,8 +32,8 @@ android {
         jvmTarget = '1.8'
     }
 
-    dataBinding {
-        enabled = true
+    buildFeatures {
+        viewBinding true
     }
 }
 
@@ -59,6 +59,9 @@ dependencies {
     //ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$life_cycle_view_model_version"
     implementation "androidx.lifecycle:lifecycle-extensions:$life_cycle_extensions_version"
+
+    //Fragment & Activity view models ktx
+    implementation "androidx.fragment:fragment-ktx:$activity_fragment_view_model_version"
 
     //Lifecycle runtime ktx
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime_version"

@@ -6,6 +6,6 @@ import retrofit2.http.*
 interface ApiService {
 
     @GET(EndPoint.USERS)
-    suspend fun getUserList(): UserApiResponse
+    suspend fun getUserList(): List<UserApiResponse>
 
 }
